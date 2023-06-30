@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*.ts", "./env.d.ts"],
+  "include": ["src/**/*.ts", "./env.d.ts", "prisma/**/*.ts"],
   "exclude": ["node_modules"]
 }

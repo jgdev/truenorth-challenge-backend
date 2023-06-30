@@ -18,6 +18,9 @@
     "migration:generate": "prisma generate",
     "create-user": "./dist/bin/create-user.js"
   },
+  "prisma": {
+    "seed": "ts-node -r tsconfig-paths/register prisma/seed.ts"
+  },
   "keywords": [],
   "author": "Joan Gabriel Peralta Santana <joanperalta13@gmail.com>",
   "license": "ISC",
@@ -30,7 +33,7 @@
     "@types/koa": "^2.13.6",
     "@types/koa-bodyparser": "^4.3.10",
     "@types/koa-router": "^7.4.4",
-    "@types/node": "^20.3.1",
+    "@types/node": "^20.3.2",
     "@types/prompt": "^1.1.5",
     "@types/supertest": "^2.0.12",
     "jest": "^29.5.0",
